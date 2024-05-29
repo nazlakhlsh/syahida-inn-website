@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tm-header{
+    background: #313F48;
+    display: block;
+    padding: 20px;
+}
+
+.tm-logo{
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.tm-nav{
+    max-width: 90%;
+    border: 2px solid #F5EEC8;
+    display: block;
+    margin: 30px auto 5px auto;
+}
+
+.tm-nav div{
+    display: table;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.tm-nav div ul li{
+    display: inline-block;
+}
+
+.tm-nav div ul li a{
+    font-size: 1.8vmax;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+
+.tm-nav div ul li a:hover{
+    color: #57A6A1;
+}
+
+/*header ends here and section start*/
+
+/*slider*/
+
+.tm-slider{
+    position: relative;
+}
+
+.tm-sliderimage{
+    width: 100%;
+    display: block;
+}
+
+.bold{
+    padding-bottom: 5px;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.simple{
+    font-size: 2.5vw;
+}
+
+.tm-slidertext{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #fff;
+}
+
+/*room*/
+
+.tm-rooms:focus{
+    outline: none;
+}
+
+.tm-rooms a:focus{
+    outline: none;
+}
+
+.tm-rooms{
+    display: block;
+    background: #344C64;
+    max-width: 33.33%;
+    width: 33.33%;
+}
+
+.tm-rooms img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.tm-rooms p{
+    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+}
+
+.tm-rooms a{
+    text-decoration: none;
+}
+
+.tm-rooms a p:hover{
+    color: #57A6A1;
+}
+
+.s{
+    padding-bottom: 1%;
+}
+
+.flex{
+    display: flex;
+}
+
+/*services */
+
+.tm-service{
+    max-width: 30%;
+    width: 30%;
+    margin: 1.5% 12% 1.5% 10%;
+}
+
+.tm-servicesection{
+    display: flex;
+}
+
+.tm-serimage{
+    display: inline-block;
+    max-width: 20%;
+    width: 10%;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.tm-service div{
+    display: inline-block;
+    max-width: 75%;
+    padding: 5%;
+}
+
+.tm-service p{
+    font-size: 1.5vmax;
+}
+
+.tm-service .b{
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+/* review */
+
+.tm-review{
+    background: #344C64;
+    padding-bottom: 5%;
+}
+
+.tm-review::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.tm-revcon{
+    float: left;
+    padding-left: 5%;
+    max-width: 65%;
+}
+
+.tm-revcon .b{
+    padding: 3% 0 3% 5%;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.tm-revcon p{
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.tm-rev{
+    padding: 3% 0 0% 5%;
+    max-width: 70%;
+}
+
+.tm-stars{
+    display: block;
+    padding-left: 5%;
+}
+
+.tm-stars img{
+    width: 4%;
+    height: auto;
+}
+
+/* footer */
+
+.tm-footer{
+    background: #313F48;
+    display: block;
+    padding: 20px;
+    position: relative;
+}
+
+.tm-us{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%;
+}
+
+.tm-address{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 25%;
+}
+
+.tm-us .bold, .tm-address .bold{
+    color: #57A6A1;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+
+.tm-us p, .tm-address p{
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+.tm-media{
+    display: inline;
+    margin: 0 0 0 59%;
+}
+
+.tm-media img{
+    margin: 0.5%;
+    width: 3%;
+    height: auto;
+}
+
+.tm-up{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    width: 3%;
+    height: auto;
+}
+
+.tm-review:focus{
+    outline: none;
+}
+
+/* rooms page */
+
+.tm-roomsection{
+    display: flex;
+}
+
+.tm-room1{
+    max-width: 33.33333%;
+    width: 33.33333%;
+    background: #344C64;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+}
+
+.tm-room1 p{
+    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    z-index: 2;
+    position: relative;
+}
+
+.tm-roomimage{
+    max-width: 100%;
+    width: 100%;
+}
+
+.tm-trans{
+    display: inline-block;
+    position: absolute;
+    top: 78%;
+    color: #fff;
+    max-width: 100%;
+    width: 100%;
+    height: 0%;
+    background: rgba(53, 53, 53, 0.7);
+    opacity: 0;
+}
+
+.tm-trans p{
+    font-size: 1.8vw;
+}
+
+.tm-trans div{
+    display: inline-table;
+    width: 40%;
+    max-width: 40%;
+    margin: 2%;
+}
+
+.tm-trans div .bold{
+    color: #fff;
+}
+
+.tm-room1:hover .tm-trans{
+    top: 30%;
+    transition: top 1s, opacity 1s, height 1s;
+    opacity: 1;
+    height: 50%;
+    z-index: 1;
+}
+
+.tm-main{
+    background: #fff;
+    padding: 20px;
+}
+
+.tm-main p{
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2vw;
+    padding: 1%;
+    color: #313F48;
+    font-weight: 700;
+}
+
+.facility-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-facility{
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kartu-facility img{
+    width: 70%;
+    border-radius: 30%;
+}
+
+.kartu-facility p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+/* meeting page */
+
+.tm-meetingsection{
+    display: flex;
+}
+
+.tm-meeting1{
+    max-width: 33.33333%;
+    width: 33.33333%;
+    background: #344C64;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+}
+
+.tm-meeting1 p{
+    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    z-index: 2;
+    position: relative;
+}
+
+.tm-meetingimage{
+    max-width: 100%;
+    width: 100%;
+}
+
+.tm-trans{
+    display: inline-block;
+    position: absolute;
+    top: 78%;
+    color: #fff;
+    max-width: 100%;
+    width: 100%;
+    height: 0%;
+    background: rgba(53, 53, 53, 0.7);
+    opacity: 0;
+}
+
+.tm-trans p{
+    font-size: 1.8vw;
+}
+
+.tm-trans div{
+    display: inline-table;
+    width: 40%;
+    max-width: 40%;
+    margin: 2%;
+}
+
+.tm-trans div .bold{
+    color: #fff;
+}
+
+.tm-meeting1:hover .tm-trans{
+    top: 30%;
+    transition: top 1s, opacity 1s, height 1s;
+    opacity: 1;
+    height: 50%;
+    z-index: 1;
+}
+
+.facilitymeeting-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-facilitymeeting{
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kartu-facilitymeeting img{
+    width: 70%;
+    border-radius: 20%;
+}
+
+.kartu-facilitymeeting p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+
+a.tbl-biru{
+    background: #313F48;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #57A6A1;
+    text-decoration: none;
+}
+
+
+/* package page */
+
+.tm-packagesection{
+    display: flex;
+}
+
+.tm-package1{
+    max-width: 33.33333%;
+    width: 33.33333%;
+    background: #344C64;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+}
+
+.tm-package1 p{
+    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    z-index: 2;
+    position: relative;
+}
+
+.tm-packageimage{
+    max-width: 100%;
+    width: 100%;
+}
+
+.tm-trans{
+    display: inline-block;
+    position: absolute;
+    top: 78%;
+    color: #fff;
+    max-width: 100%;
+    width: 100%;
+    height: 0%;
+    background: rgba(53, 53, 53, 0.7);
+    opacity: 0;
+}
+
+.tm-trans p{
+    font-size: 1vw;
+}
+
+.tm-trans div{
+    display: inline-table;
+    width: 40%;
+    max-width: 40%;
+    margin: 2%;
+}
+
+.tm-trans div .bold{
+    color: #fff;
+}
+
+.tm-package1:hover .tm-trans{
+    top: 30%;
+    transition: top 1s, opacity 1s, height 1s;
+    opacity: 1;
+    height: 50%;
+    z-index: 1;
+}
+
+.facilitypackage-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-facilitypackage{
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kartu-facilitypackage img{
+    width: 70%;
+    border-radius: 30%;
+}
+
+.kartu-facilitypackage p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
